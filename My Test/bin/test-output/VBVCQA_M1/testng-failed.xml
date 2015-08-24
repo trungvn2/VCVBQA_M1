@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VBVCQA_M1]">
+  <test name="VoiceOwner(failed)">
+    <classes>
+      <class name="TS_VoiceOwner">
+        <methods>
+          <include name="TS01TC01checkVoiceOwnerGet"/>
+          <include name="setupCookieManager"/>
+        </methods>
+      </class> <!-- TS_VoiceOwner -->
+    </classes>
+  </test> <!-- VoiceOwner(failed) -->
+</suite> <!-- Failed suite [VBVCQA_M1] -->

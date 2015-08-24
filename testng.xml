@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="VBVCQA_M1">
+ <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+	<test name="VoiceOwner">
+		<classes>
+			
+			<class name="VoiceOwner.TS_VoiceOwner_Get"/>	
+			<class name="VoiceOwner.TS_VoiceOwner_Put"/>			
+			
+		</classes>
+	</test>
+ 
+	
+ 
+</suite>

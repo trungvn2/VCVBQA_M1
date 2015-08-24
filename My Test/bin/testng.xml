@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="VBVCQA_M1">
+ 
+	<test name="VoiceOwner">
+		<classes>
+			
+			<class name="TS_VoiceOwner" />
+			
+		</classes>
+	</test>
+ 
+	
+ 
+</suite>
